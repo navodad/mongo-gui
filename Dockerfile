@@ -1,5 +1,5 @@
 # Definindo a imagem base
-FROM node:lts-stretch
+FROM --platform=linux/amd64 node:11.15
 
 COPY . /app
 
